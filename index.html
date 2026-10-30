@@ -379,8 +379,8 @@
       <article class="card">
         <div class="meta"><span class="status s-live">Live</span><span class="who">built</span></div>
         <h3><a href="https://github.com/JoeT06/it-ops-portfolio/tree/main/projects/nda-sync">NDA sync to SharePoint</a></h3>
-        <p>Replaced paper visitor NDAs with an Acrobat Sign web form. A scheduled flow files every signed NDA in SharePoint and skips ones already there. I rebuilt it on a schedule after hitting limits in Acrobat Sign's trigger.</p>
-        <ul class="tags"><li>Power Automate</li><li>Adobe Acrobat Sign</li><li>SharePoint</li></ul>
+        <p>Replaced paper visitor NDAs with an Acrobat Sign web form. Two flows file every signed NDA in SharePoint as soon as it's signed, one for the front desk web form and one for emailed NDAs. A failed run sends an alert with the failed step, the error, and a link to the run.</p>
+        <ul class="tags"><li>Power Automate</li><li>Adobe Acrobat Sign</li><li>SharePoint</li><li>Error handling</li></ul>
       </article>
 
       <article class="card">
